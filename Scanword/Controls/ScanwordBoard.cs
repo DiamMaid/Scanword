@@ -126,7 +126,6 @@ public sealed class ScanwordBoard : Control
             return;
 
         CellTappedCommand?.Execute(index);
-        e.Handled = true;
     }
 
     private void RenderLetterCell(DrawingContext context, ScanwordEngine engine, int index, Rect rect, bool isSelected)

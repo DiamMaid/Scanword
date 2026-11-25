@@ -34,11 +34,15 @@
 
     <Border Grid.Row="2" Background="#ECEFF1" CornerRadius="8" Padding="6" Margin="0,4">
       <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-        <controls:ScanwordBoard Engine="{Binding GameEngine}"
-                                Revision="{Binding Revision}"
-                                CellTappedCommand="{Binding CellTappedCommand}"
-                                HorizontalAlignment="Center"
-                                VerticalAlignment="Center"/>
+        <LayoutTransformControl HorizontalAlignment="Center" VerticalAlignment="Center">
+          <LayoutTransformControl.LayoutTransform>
+            <ScaleTransform ScaleX="{Binding Zoom}" ScaleY="{Binding Zoom}"/>
+          </LayoutTransformControl.LayoutTransform>
+          <controls:ScanwordBoard x:Name="Board"
+                                  Engine="{Binding GameEngine}"
+                                  Revision="{Binding Revision}"
+                                  CellTappedCommand="{Binding CellTappedCommand}"/>
+        </LayoutTransformControl>
       </ScrollViewer>
     </Border>
 

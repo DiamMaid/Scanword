@@ -63,6 +63,9 @@ public partial class MainViewModel : ViewModelBase
     [ObservableProperty]
     private bool isCompleted;
 
+    [ObservableProperty]
+    private double zoom = 1.0;
+
     public async Task InitializeAsync()
     {
         try
@@ -165,6 +168,12 @@ public partial class MainViewModel : ViewModelBase
         {
             StatusText = "Реклама сейчас недоступна";
         }
+    }
+
+    [RelayCommand]
+    private void ResetZoom()
+    {
+        Zoom = 1.0;
     }
 
     [RelayCommand]
