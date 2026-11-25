@@ -14,6 +14,7 @@
 
     <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto">
       <StackPanel Orientation="Horizontal" Spacing="6">
+        <Button Content="🏠" Command="{Binding OpenMenuCommand}" ToolTip.Tip="Главное меню"/>
         <Button Content="☰" Command="{Binding OpenLevelSelectCommand}" ToolTip.Tip="Выбор уровня"/>
         <Button Content="◀" Command="{Binding PreviousLevelCommand}" ToolTip.Tip="Предыдущий уровень"/>
         <StackPanel VerticalAlignment="Center">
@@ -71,6 +72,24 @@
       <Button Content="💡 Буква (1)" Command="{Binding OpenLetterHintCommand}"/>
       <Button Content="💡 Слово (3)" Command="{Binding OpenWordHintCommand}"/>
     </StackPanel>
+
+    <Panel Grid.Row="0" Grid.RowSpan="5" Background="#99000000" IsVisible="{Binding IsMenuOpen}">
+      <Border Background="White" CornerRadius="12" Padding="28" MaxWidth="360"
+              HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Spacing="12">
+          <TextBlock Text="СКАНВОРД" FontSize="28" FontWeight="Bold" HorizontalAlignment="Center"/>
+          <TextBlock Text="Классические кроссворды с определениями прямо в клетках"
+                     FontSize="12" Opacity="0.7" TextAlignment="Center" TextWrapping="Wrap"/>
+          <Button Content="▶ Играть" Command="{Binding StartGameCommand}"
+                  HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"
+                  Background="#1976D2" Foreground="White" Padding="12,8"/>
+          <Button Content="☰ Выбор уровня" Command="{Binding OpenLevelSelectCommand}"
+                  HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
+          <Button Content="🛒 Магазин" Command="{Binding OpenStoreCommand}"
+                  HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
+        </StackPanel>
+      </Border>
+    </Panel>
 
     <Panel Grid.Row="0" Grid.RowSpan="5" Background="#99000000" IsVisible="{Binding IsStoreOpen}">
       <Border Background="White" CornerRadius="12" Padding="20" MaxWidth="360"

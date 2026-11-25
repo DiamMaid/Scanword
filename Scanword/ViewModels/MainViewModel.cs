@@ -75,6 +75,9 @@ public partial class MainViewModel : ViewModelBase
     private bool isCompleted;
 
     [ObservableProperty]
+    private bool isMenuOpen;
+
+    [ObservableProperty]
     private bool isStoreOpen;
 
     [ObservableProperty]
@@ -96,12 +99,48 @@ public partial class MainViewModel : ViewModelBase
                 return;
             }
 
-            await LoadLevelAsync(0);
+            StatusText = "Добро пожаловать!";
+            IsMenuOpen = true;
         }
         catch (Exception ex)
         {
             StatusText = $"Ошибка запуска: {ex.Message}";
         }
+    }
+
+    [RelayCommand]
+    private void OpenMenu()
+    {
+        IsMenuOpen = true;
+    }
+
+    [RelayCommand]
+    private async Task StartGameAsync()
+    {
+        await LoadLevelAsync(await FindResumeIndexAsync());
+        IsMenuOpen = false;
+    }
+
+    private async Task<int> FindResumeIndexAsync()
+    {
+        var statuses = new LevelStatus?[_levels.Count];
+        for (int i = 0; i < _levels.Count; i++)
+        {
+            LevelProgress? progress = await _progressStore.LoadAsync(_levels[i].Id);
+            statuses[i] = progress?.Status;
+        }
+
+        int inProgress = Array.IndexOf(statuses, LevelStatus.InProgress);
+        if (inProgress >= 0)
+            return inProgress;
+
+        for (int i = 0; i < statuses.Length; i++)
+        {
+            if (statuses[i] is null or LevelStatus.NotStarted)
+                return i;
+        }
+
+        return 0;
     }
 
     [RelayCommand]
@@ -251,6 +290,7 @@ public partial class MainViewModel : ViewModelBase
     {
         await LoadLevelAsync(index);
         IsLevelSelectOpen = false;
+        IsMenuOpen = false;
     }
 
     private async Task<string> DescribeLevelStatusAsync(string levelId)
@@ -368,12 +408,31 @@ public partial class MainViewModel : ViewModelBase
         if (GameEngine.LevelStatus == LevelStatus.Completed && !IsCompleted)
         {
             IsCompleted = true;
-            StatusText = "Уровень пройден! Нажмите ▶, чтобы перейти дальше";
+            _ = GrantCompletionRewardAsync();
         }
 
         Revision++;
         QueueSave();
     }
+
+    private async Task GrantCompletionRewardAsync()
+    {
+        if (GameEngine is null)
+            return;
+
+        int reward = RewardFor(GameEngine.Level.Meta.Difficulty);
+        Coins = await _wallet.CreditAsync(reward);
+        StatusText = $"🎉 Уровень пройден! Награда: +{reward} монет";
+    }
+
+    private static int RewardFor(Difficulty difficulty) => difficulty switch
+    {
+        Difficulty.Easy => 10,
+        Difficulty.Normal => 15,
+        Difficulty.Hard => 20,
+        Difficulty.Expert => 25,
+        _ => 10
+    };
 
     private void QueueSave()
     {
