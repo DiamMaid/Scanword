@@ -24,7 +24,9 @@ var specs = new (string Id, string Title, Difficulty Difficulty, int Words, int 
 {
     ("level-001", "Разминка", Difficulty.Easy, 6, 9, 101),
     ("level-002", "Классика", Difficulty.Normal, 8, 11, 202),
-    ("level-003", "Мастер", Difficulty.Hard, 10, 13, 303)
+    ("level-003", "Мастер", Difficulty.Hard, 10, 13, 303),
+    ("level-004", "Эрудит", Difficulty.Hard, 11, 14, 404),
+    ("level-005", "Гроссмейстер", Difficulty.Expert, 12, 15, 505)
 };
 
 var levels = new List<ScanwordLevel>();
@@ -43,7 +45,7 @@ foreach (var spec in specs)
 
         int estimatedMinutes = (int)Math.Ceiling(spec.Words / 2.0);
         ScanwordLevel candidate = ScanwordLevelBuilder.Build(
-            layout, spec.Id, 1, spec.Difficulty, spec.Title, estimatedMinutes);
+            layout, spec.Id, 2, spec.Difficulty, spec.Title, estimatedMinutes);
 
         LevelValidationResult validation = LevelValidator.Validate(candidate);
         if (!validation.IsValid)
