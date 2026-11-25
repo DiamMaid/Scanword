@@ -23,9 +23,18 @@ public static class AppServices
     {
         string target = Path.Combine(dataDirectory, "levels.db");
 
-        using Stream asset = AssetLoader.Open(new Uri(LevelsAssetUri));
-        using FileStream file = File.Create(target);
-        asset.CopyTo(file);
+        try
+        {
+            using Stream asset = AssetLoader.Open(new Uri(LevelsAssetUri));
+            using FileStream file = File.Create(target);
+            asset.CopyTo(file);
+        }
+        catch (IOException) when (File.Exists(target))
+        {
+        }
+        catch (UnauthorizedAccessException) when (File.Exists(target))
+        {
+        }
 
         return target;
     }

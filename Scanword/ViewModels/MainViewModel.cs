@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.ComponentModel;
@@ -19,6 +21,7 @@ public partial class MainViewModel : ViewModelBase
     private readonly IProgressStore _progressStore;
     private readonly HintWalletService _wallet;
     private readonly RewardedAdService _rewardedAds;
+    private readonly CoinPurchaseService _purchases;
     private readonly SemaphoreSlim _saveLock = new(1, 1);
 
     private IReadOnlyList<LevelSummary> _levels = Array.Empty<LevelSummary>();
@@ -30,17 +33,25 @@ public partial class MainViewModel : ViewModelBase
         ILevelRepository levelRepository,
         IProgressStore progressStore,
         HintWalletService wallet,
-        RewardedAdService rewardedAds)
+        RewardedAdService rewardedAds,
+        CoinPurchaseService purchases,
+        IReadOnlyList<CoinPack> coinPacks)
     {
         _levelLoading = levelLoading;
         _levelRepository = levelRepository;
         _progressStore = progressStore;
         _wallet = wallet;
         _rewardedAds = rewardedAds;
+        _purchases = purchases;
+        CoinPacks = coinPacks;
     }
 
     public IReadOnlyList<char> KeyboardLetters { get; } =
         "АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ".ToCharArray();
+
+    public IReadOnlyList<CoinPack> CoinPacks { get; }
+
+    public ObservableCollection<LevelItemViewModel> LevelItems { get; } = new();
 
     [ObservableProperty]
     private ScanwordEngine? gameEngine;
@@ -62,6 +73,12 @@ public partial class MainViewModel : ViewModelBase
 
     [ObservableProperty]
     private bool isCompleted;
+
+    [ObservableProperty]
+    private bool isStoreOpen;
+
+    [ObservableProperty]
+    private bool isLevelSelectOpen;
 
     [ObservableProperty]
     private double zoom = 1.0;
@@ -169,6 +186,93 @@ public partial class MainViewModel : ViewModelBase
             StatusText = "Реклама сейчас недоступна";
         }
     }
+
+    [RelayCommand]
+    private void OpenStore()
+    {
+        IsStoreOpen = true;
+    }
+
+    [RelayCommand]
+    private void CloseStore()
+    {
+        IsStoreOpen = false;
+    }
+
+    [RelayCommand]
+    private async Task BuyPackAsync(CoinPack pack)
+    {
+        (PurchaseResult result, int balance) = await _purchases.PurchaseHintsAsync(pack.ProductId);
+        Coins = balance;
+        StatusText = result switch
+        {
+            PurchaseResult.Success => $"Покупка выполнена: +{pack.Coins} монет",
+            PurchaseResult.AlreadyOwned => "Эта покупка уже активирована",
+            PurchaseResult.Cancelled => "Покупка отменена",
+            _ => "Покупка не удалась, попробуйте позже"
+        };
+    }
+
+    [RelayCommand]
+    private async Task RestorePurchasesAsync()
+    {
+        (int restored, int balance) = await _purchases.RestorePurchasesAsync();
+        Coins = balance;
+        StatusText = restored > 0
+            ? $"Восстановлено покупок: {restored}"
+            : "Покупок для восстановления не найдено";
+    }
+
+    [RelayCommand]
+    private async Task OpenLevelSelectAsync()
+    {
+        LevelItems.Clear();
+        for (int i = 0; i < _levels.Count; i++)
+        {
+            LevelSummary summary = _levels[i];
+            string status = await DescribeLevelStatusAsync(summary.Id);
+            LevelItems.Add(new LevelItemViewModel(
+                i,
+                summary.Title,
+                $"{DifficultyName(summary.Difficulty)} · слов: {summary.WordCount} · {status}"));
+        }
+
+        IsLevelSelectOpen = true;
+    }
+
+    [RelayCommand]
+    private void CloseLevelSelect()
+    {
+        IsLevelSelectOpen = false;
+    }
+
+    [RelayCommand]
+    private async Task SelectLevelAsync(int index)
+    {
+        await LoadLevelAsync(index);
+        IsLevelSelectOpen = false;
+    }
+
+    private async Task<string> DescribeLevelStatusAsync(string levelId)
+    {
+        LevelProgress? progress = await _progressStore.LoadAsync(levelId);
+        if (progress is null || progress.Status == LevelStatus.NotStarted)
+            return "не начат";
+
+        int solved = progress.Words.Count(w => w.Status == WordStatus.Solved);
+        return progress.Status == LevelStatus.Completed
+            ? "пройден"
+            : $"в игре {solved}/{progress.Words.Length}";
+    }
+
+    private static string DifficultyName(Difficulty difficulty) => difficulty switch
+    {
+        Difficulty.Easy => "Лёгкий",
+        Difficulty.Normal => "Средний",
+        Difficulty.Hard => "Сложный",
+        Difficulty.Expert => "Эксперт",
+        _ => string.Empty
+    };
 
     [RelayCommand]
     private void ResetZoom()

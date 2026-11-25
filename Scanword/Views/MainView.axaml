@@ -3,6 +3,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:sys="using:System"
+             xmlns:app="using:Scanword.Application"
              xmlns:controls="using:Scanword.Controls"
              xmlns:vm="using:Scanword.ViewModels"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
@@ -13,6 +14,7 @@
 
     <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto">
       <StackPanel Orientation="Horizontal" Spacing="6">
+        <Button Content="☰" Command="{Binding OpenLevelSelectCommand}" ToolTip.Tip="Выбор уровня"/>
         <Button Content="◀" Command="{Binding PreviousLevelCommand}" ToolTip.Tip="Предыдущий уровень"/>
         <StackPanel VerticalAlignment="Center">
           <TextBlock Text="{Binding LevelTitle}" FontWeight="SemiBold" FontSize="16" HorizontalAlignment="Center"/>
@@ -26,6 +28,7 @@
           <TextBlock Text="{Binding Coins, StringFormat='🪙 {0}'}" FontWeight="SemiBold"/>
         </Border>
         <Button Content="📺 +10" Command="{Binding WatchAdCommand}" ToolTip.Tip="Посмотреть рекламу за монеты"/>
+        <Button Content="🛒" Command="{Binding OpenStoreCommand}" ToolTip.Tip="Магазин монет"/>
       </StackPanel>
     </Grid>
 
@@ -68,6 +71,58 @@
       <Button Content="💡 Буква (1)" Command="{Binding OpenLetterHintCommand}"/>
       <Button Content="💡 Слово (3)" Command="{Binding OpenWordHintCommand}"/>
     </StackPanel>
+
+    <Panel Grid.Row="0" Grid.RowSpan="5" Background="#99000000" IsVisible="{Binding IsStoreOpen}">
+      <Border Background="White" CornerRadius="12" Padding="20" MaxWidth="360"
+              HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Spacing="10">
+          <TextBlock Text="Магазин монет" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center"/>
+          <ItemsControl ItemsSource="{Binding CoinPacks}">
+            <ItemsControl.ItemTemplate>
+              <DataTemplate x:DataType="app:CoinPack">
+                <Button Margin="0,3" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"
+                        Command="{Binding $parent[ItemsControl].((vm:MainViewModel)DataContext).BuyPackCommand}"
+                        CommandParameter="{Binding}">
+                  <StackPanel Orientation="Horizontal" Spacing="8">
+                    <TextBlock Text="🪙"/>
+                    <TextBlock Text="{Binding Title}"/>
+                  </StackPanel>
+                </Button>
+              </DataTemplate>
+            </ItemsControl.ItemTemplate>
+          </ItemsControl>
+          <Button Content="Восстановить покупки" Command="{Binding RestorePurchasesCommand}"
+                  HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
+          <Button Content="Закрыть" Command="{Binding CloseStoreCommand}"
+                  HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
+        </StackPanel>
+      </Border>
+    </Panel>
+
+    <Panel Grid.Row="0" Grid.RowSpan="5" Background="#99000000" IsVisible="{Binding IsLevelSelectOpen}">
+      <Border Background="White" CornerRadius="12" Padding="20" MaxWidth="420"
+              HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Spacing="10">
+          <TextBlock Text="Выбор уровня" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center"/>
+          <ItemsControl ItemsSource="{Binding LevelItems}">
+            <ItemsControl.ItemTemplate>
+              <DataTemplate x:DataType="vm:LevelItemViewModel">
+                <Button Margin="0,3" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"
+                        Command="{Binding $parent[ItemsControl].((vm:MainViewModel)DataContext).SelectLevelCommand}"
+                        CommandParameter="{Binding Index}">
+                  <StackPanel>
+                    <TextBlock Text="{Binding Title}" FontWeight="SemiBold"/>
+                    <TextBlock Text="{Binding Description}" FontSize="11" Opacity="0.7"/>
+                  </StackPanel>
+                </Button>
+              </DataTemplate>
+            </ItemsControl.ItemTemplate>
+          </ItemsControl>
+          <Button Content="Закрыть" Command="{Binding CloseLevelSelectCommand}"
+                  HorizontalAlignment="Stretch" HorizontalContentAlignment="Center"/>
+        </StackPanel>
+      </Border>
+    </Panel>
 
   </Grid>
 </UserControl>

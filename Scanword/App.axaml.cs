@@ -61,7 +61,16 @@ public partial class App : Avalonia.Application
         var wallet = new HintWalletService(progressStore, DefaultWalletBalance);
         var rewardedAds = new RewardedAdService(new StubAdService(), wallet, CoinsPerAd);
 
-        var viewModel = new MainViewModel(levelLoading, levelRepository, progressStore, wallet, rewardedAds);
+        CoinPack[] coinPacks =
+        [
+            new CoinPack("coins_50", "50 монет", 50),
+            new CoinPack("coins_150", "150 монет", 150),
+            new CoinPack("coins_400", "400 монет", 400)
+        ];
+        var purchases = new CoinPurchaseService(new StubPaymentService(), progressStore, wallet, coinPacks);
+
+        var viewModel = new MainViewModel(
+            levelLoading, levelRepository, progressStore, wallet, rewardedAds, purchases, coinPacks);
         _ = viewModel.InitializeAsync();
         return viewModel;
     }
