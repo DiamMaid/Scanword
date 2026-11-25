@@ -16,6 +16,11 @@ internal sealed class TestPaymentService : IPaymentService
         _reuseToken = reuseToken;
     }
 
+    internal void SeedOwned(string productId, string purchaseToken)
+    {
+        _issued.Add(new StorePurchase(productId, purchaseToken, null, DateTimeOffset.UtcNow));
+    }
+
     public Task<PurchaseOutcome> PurchaseAsync(string productId)
     {
         if (_reuseToken && _fixed is not null)
