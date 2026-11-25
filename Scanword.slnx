@@ -1,0 +1,18 @@
+<Solution>
+  <Project Path="../../обучение по вопросам c#/Test/Test.csproj" />
+  <Project Path="Scanword.Android/Scanword.Android.csproj">
+    <Deploy />
+  </Project>
+  <Project Path="Scanword.Browser/Scanword.Browser.csproj" />
+  <Project Path="Scanword.Desktop/Scanword.Desktop.csproj" />
+  <Project Path="Scanword.iOS/Scanword.iOS.csproj">
+    <Deploy />
+  </Project>
+  <Project Path="Scanword/Scanword.csproj" />
+  <Project Path="Scanword.Domain/Scanword.Domain.csproj" />
+  <Project Path="Scanword.Domain.Tests/Scanword.Domain.Tests.csproj" />
+  <Project Path="Scanword.Application/Scanword.Application.csproj" />
+  <Project Path="Scanword.Infrastructure/Scanword.Infrastructure.csproj" />
+  <Project Path="Scanword.Infrastructure.Tests/Scanword.Infrastructure.Tests.csproj" />
+  <Project Path="Scanword.Generator/Scanword.Generator.csproj" />
+</Solution>

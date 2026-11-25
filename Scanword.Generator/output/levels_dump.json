@@ -1,0 +1,2292 @@
+﻿[
+  {
+    "id": "level-001",
+    "version": 1,
+    "width": 9,
+    "height": 8,
+    "cells": [
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 2,
+        "solution": "З"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 3,
+        "solution": "Л"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 0,
+        "solution": "Т"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 2,
+        "solution": "Е"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 0,
+        "solution": "Т"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 0,
+        "solution": "Р"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 3,
+        "solution": "А"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 0,
+        "solution": "Д"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 0,
+        "solution": "Ь"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 5,
+        "solution": "О"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 2,
+        "solution": "М"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 3,
+        "solution": "М"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 4,
+        "downWordId": 5,
+        "solution": "С"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 4,
+        "downWordId": 0,
+        "solution": "О"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 4,
+        "downWordId": 2,
+        "solution": "Л"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 4,
+        "downWordId": 0,
+        "solution": "Ь"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 3,
+        "solution": "П"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 5,
+        "solution": "Е"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 2,
+        "solution": "Я"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 6,
+        "downWordId": 0,
+        "solution": "Ч"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 6,
+        "downWordId": 3,
+        "solution": "А"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 6,
+        "downWordId": 0,
+        "solution": "С"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 6,
+        "downWordId": 0,
+        "solution": "Ы"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 5,
+        "solution": "Н"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 5,
+        "solution": "Ь"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      }
+    ],
+    "words": [
+      {
+        "id": 1,
+        "startRow": 2,
+        "startCol": 2,
+        "direction": 0,
+        "length": 7,
+        "answer": "ТЕТРАДЬ",
+        "clueId": 1
+      },
+      {
+        "id": 2,
+        "startRow": 1,
+        "startCol": 3,
+        "direction": 1,
+        "length": 5,
+        "answer": "ЗЕМЛЯ",
+        "clueId": 2
+      },
+      {
+        "id": 3,
+        "startRow": 1,
+        "startCol": 6,
+        "direction": 1,
+        "length": 5,
+        "answer": "ЛАМПА",
+        "clueId": 3
+      },
+      {
+        "id": 4,
+        "startRow": 4,
+        "startCol": 1,
+        "direction": 0,
+        "length": 4,
+        "answer": "СОЛЬ",
+        "clueId": 4
+      },
+      {
+        "id": 5,
+        "startRow": 3,
+        "startCol": 1,
+        "direction": 1,
+        "length": 5,
+        "answer": "ОСЕНЬ",
+        "clueId": 5
+      },
+      {
+        "id": 6,
+        "startRow": 5,
+        "startCol": 5,
+        "direction": 0,
+        "length": 4,
+        "answer": "ЧАСЫ",
+        "clueId": 6
+      }
+    ],
+    "clues": [
+      {
+        "id": 1,
+        "text": "В ней пишут школьники",
+        "arrow": 0,
+        "wordId": 1
+      },
+      {
+        "id": 2,
+        "text": "Планета, на которой мы живём",
+        "arrow": 1,
+        "wordId": 2
+      },
+      {
+        "id": 3,
+        "text": "Осветительный прибор",
+        "arrow": 1,
+        "wordId": 3
+      },
+      {
+        "id": 4,
+        "text": "Белая приправа к пище",
+        "arrow": 0,
+        "wordId": 4
+      },
+      {
+        "id": 5,
+        "text": "Время года перед зимой",
+        "arrow": 1,
+        "wordId": 5
+      },
+      {
+        "id": 6,
+        "text": "Прибор для измерения времени",
+        "arrow": 0,
+        "wordId": 6
+      }
+    ],
+    "clueCells": [
+      {
+        "cellIndex": 3,
+        "clueIds": [
+          2
+        ]
+      },
+      {
+        "cellIndex": 6,
+        "clueIds": [
+          3
+        ]
+      },
+      {
+        "cellIndex": 19,
+        "clueIds": [
+          1,
+          5
+        ]
+      },
+      {
+        "cellIndex": 36,
+        "clueIds": [
+          4
+        ]
+      },
+      {
+        "cellIndex": 49,
+        "clueIds": [
+          6
+        ]
+      }
+    ],
+    "meta": {
+      "difficulty": 0,
+      "title": "Разминка",
+      "locale": "ru-RU",
+      "wordCount": 6,
+      "estimatedMinutes": 3
+    }
+  },
+  {
+    "id": "level-002",
+    "version": 1,
+    "width": 8,
+    "height": 9,
+    "cells": [
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 6,
+        "solution": "Ч"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 5,
+        "solution": "В"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 6,
+        "solution": "А"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 2,
+        "solution": "К"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 0,
+        "solution": "И"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 0,
+        "solution": "Н"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 5,
+        "solution": "О"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 4,
+        "downWordId": 6,
+        "solution": "С"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 4,
+        "downWordId": 0,
+        "solution": "Т"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 4,
+        "downWordId": 0,
+        "solution": "О"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 4,
+        "downWordId": 2,
+        "solution": "Л"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 5,
+        "solution": "Д"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 6,
+        "solution": "Ы"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 2,
+        "solution": "Ю"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 5,
+        "solution": "А"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 3,
+        "downWordId": 7,
+        "solution": "М"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 3,
+        "downWordId": 0,
+        "solution": "Е"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 3,
+        "downWordId": 2,
+        "solution": "Ч"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 3,
+        "downWordId": 8,
+        "solution": "Т"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 3,
+        "downWordId": 0,
+        "solution": "А"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 7,
+        "solution": "О"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 8,
+        "solution": "О"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 7,
+        "solution": "Р"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 8,
+        "solution": "Р"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 7,
+        "solution": "Е"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 8,
+        "solution": "Т"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      }
+    ],
+    "words": [
+      {
+        "id": 1,
+        "startRow": 2,
+        "startCol": 4,
+        "direction": 0,
+        "length": 4,
+        "answer": "КИНО",
+        "clueId": 1
+      },
+      {
+        "id": 2,
+        "startRow": 2,
+        "startCol": 4,
+        "direction": 1,
+        "length": 4,
+        "answer": "КЛЮЧ",
+        "clueId": 2
+      },
+      {
+        "id": 3,
+        "startRow": 5,
+        "startCol": 2,
+        "direction": 0,
+        "length": 5,
+        "answer": "МЕЧТА",
+        "clueId": 3
+      },
+      {
+        "id": 4,
+        "startRow": 3,
+        "startCol": 1,
+        "direction": 0,
+        "length": 4,
+        "answer": "СТОЛ",
+        "clueId": 4
+      },
+      {
+        "id": 5,
+        "startRow": 1,
+        "startCol": 7,
+        "direction": 1,
+        "length": 4,
+        "answer": "ВОДА",
+        "clueId": 5
+      },
+      {
+        "id": 6,
+        "startRow": 1,
+        "startCol": 1,
+        "direction": 1,
+        "length": 4,
+        "answer": "ЧАСЫ",
+        "clueId": 6
+      },
+      {
+        "id": 7,
+        "startRow": 5,
+        "startCol": 2,
+        "direction": 1,
+        "length": 4,
+        "answer": "МОРЕ",
+        "clueId": 7
+      },
+      {
+        "id": 8,
+        "startRow": 5,
+        "startCol": 5,
+        "direction": 1,
+        "length": 4,
+        "answer": "ТОРТ",
+        "clueId": 8
+      }
+    ],
+    "clues": [
+      {
+        "id": 1,
+        "text": "Искусство движущихся изображений",
+        "arrow": 0,
+        "wordId": 1
+      },
+      {
+        "id": 2,
+        "text": "Открывает замок",
+        "arrow": 1,
+        "wordId": 2
+      },
+      {
+        "id": 3,
+        "text": "Заветное желание",
+        "arrow": 0,
+        "wordId": 3
+      },
+      {
+        "id": 4,
+        "text": "Мебель с ножками и столешницей",
+        "arrow": 0,
+        "wordId": 4
+      },
+      {
+        "id": 5,
+        "text": "Прозрачная жидкость, основа жизни",
+        "arrow": 1,
+        "wordId": 5
+      },
+      {
+        "id": 6,
+        "text": "Прибор для измерения времени",
+        "arrow": 1,
+        "wordId": 6
+      },
+      {
+        "id": 7,
+        "text": "Большой солёный водоём",
+        "arrow": 1,
+        "wordId": 7
+      },
+      {
+        "id": 8,
+        "text": "Праздничное сладкое угощение",
+        "arrow": 1,
+        "wordId": 8
+      }
+    ],
+    "clueCells": [
+      {
+        "cellIndex": 1,
+        "clueIds": [
+          6
+        ]
+      },
+      {
+        "cellIndex": 7,
+        "clueIds": [
+          5
+        ]
+      },
+      {
+        "cellIndex": 12,
+        "clueIds": [
+          2
+        ]
+      },
+      {
+        "cellIndex": 19,
+        "clueIds": [
+          1
+        ]
+      },
+      {
+        "cellIndex": 24,
+        "clueIds": [
+          4
+        ]
+      },
+      {
+        "cellIndex": 34,
+        "clueIds": [
+          7
+        ]
+      },
+      {
+        "cellIndex": 37,
+        "clueIds": [
+          8
+        ]
+      },
+      {
+        "cellIndex": 41,
+        "clueIds": [
+          3
+        ]
+      }
+    ],
+    "meta": {
+      "difficulty": 1,
+      "title": "Классика",
+      "locale": "ru-RU",
+      "wordCount": 8,
+      "estimatedMinutes": 4
+    }
+  },
+  {
+    "id": "level-003",
+    "version": 1,
+    "width": 12,
+    "height": 12,
+    "cells": [
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 10,
+        "solution": "К"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 10,
+        "solution": "О"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 10,
+        "solution": "М"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 7,
+        "solution": "М"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 10,
+        "solution": "П"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 7,
+        "solution": "О"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 10,
+        "solution": "А"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 8,
+        "downWordId": 7,
+        "solution": "Р"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 8,
+        "downWordId": 0,
+        "solution": "У"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 8,
+        "downWordId": 9,
+        "solution": "К"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 8,
+        "downWordId": 0,
+        "solution": "А"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 5,
+        "downWordId": 10,
+        "solution": "С"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 5,
+        "downWordId": 0,
+        "solution": "О"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 5,
+        "downWordId": 3,
+        "solution": "Л"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 5,
+        "downWordId": 0,
+        "solution": "Н"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 5,
+        "downWordId": 0,
+        "solution": "Ц"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 5,
+        "downWordId": 7,
+        "solution": "Е"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 9,
+        "solution": "И"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 3,
+        "solution": "У"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 9,
+        "solution": "Н"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 2,
+        "solution": "Т"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 4,
+        "downWordId": 3,
+        "solution": "Н"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 4,
+        "downWordId": 0,
+        "solution": "О"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 4,
+        "downWordId": 0,
+        "solution": "С"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 9,
+        "solution": "О"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 0,
+        "solution": "Ш"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 0,
+        "solution": "К"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 2,
+        "solution": "О"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 0,
+        "solution": "Л"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 1,
+        "downWordId": 3,
+        "solution": "А"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 0,
+        "downWordId": 2,
+        "solution": "Р"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 1,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 6,
+        "downWordId": 0,
+        "solution": "Л"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 6,
+        "downWordId": 0,
+        "solution": "Е"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 6,
+        "downWordId": 2,
+        "solution": "Т"
+      },
+      {
+        "kind": 2,
+        "acrossWordId": 6,
+        "downWordId": 0,
+        "solution": "О"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      },
+      {
+        "kind": 0,
+        "acrossWordId": 0,
+        "downWordId": 0,
+        "solution": "\u0000"
+      }
+    ],
+    "words": [
+      {
+        "id": 1,
+        "startRow": 9,
+        "startCol": 1,
+        "direction": 0,
+        "length": 5,
+        "answer": "ШКОЛА",
+        "clueId": 1
+      },
+      {
+        "id": 2,
+        "startRow": 8,
+        "startCol": 3,
+        "direction": 1,
+        "length": 4,
+        "answer": "ТОРТ",
+        "clueId": 2
+      },
+      {
+        "id": 3,
+        "startRow": 6,
+        "startCol": 5,
+        "direction": 1,
+        "length": 4,
+        "answer": "ЛУНА",
+        "clueId": 3
+      },
+      {
+        "id": 4,
+        "startRow": 8,
+        "startCol": 5,
+        "direction": 0,
+        "length": 3,
+        "answer": "НОС",
+        "clueId": 4
+      },
+      {
+        "id": 5,
+        "startRow": 6,
+        "startCol": 3,
+        "direction": 0,
+        "length": 6,
+        "answer": "СОЛНЦЕ",
+        "clueId": 5
+      },
+      {
+        "id": 6,
+        "startRow": 11,
+        "startCol": 1,
+        "direction": 0,
+        "length": 4,
+        "answer": "ЛЕТО",
+        "clueId": 6
+      },
+      {
+        "id": 7,
+        "startRow": 3,
+        "startCol": 8,
+        "direction": 1,
+        "length": 4,
+        "answer": "МОРЕ",
+        "clueId": 7
+      },
+      {
+        "id": 8,
+        "startRow": 5,
+        "startCol": 8,
+        "direction": 0,
+        "length": 4,
+        "answer": "РУКА",
+        "clueId": 8
+      },
+      {
+        "id": 9,
+        "startRow": 5,
+        "startCol": 10,
+        "direction": 1,
+        "length": 4,
+        "answer": "КИНО",
+        "clueId": 9
+      },
+      {
+        "id": 10,
+        "startRow": 1,
+        "startCol": 3,
+        "direction": 1,
+        "length": 6,
+        "answer": "КОМПАС",
+        "clueId": 10
+      }
+    ],
+    "clues": [
+      {
+        "id": 1,
+        "text": "Учебное заведение для детей",
+        "arrow": 0,
+        "wordId": 1
+      },
+      {
+        "id": 2,
+        "text": "Праздничное сладкое угощение",
+        "arrow": 1,
+        "wordId": 2
+      },
+      {
+        "id": 3,
+        "text": "Спутник Земли",
+        "arrow": 1,
+        "wordId": 3
+      },
+      {
+        "id": 4,
+        "text": "Орган обоняния на лице",
+        "arrow": 0,
+        "wordId": 4
+      },
+      {
+        "id": 5,
+        "text": "Звезда, дающая нам свет и тепло",
+        "arrow": 0,
+        "wordId": 5
+      },
+      {
+        "id": 6,
+        "text": "Самое тёплое время года",
+        "arrow": 0,
+        "wordId": 6
+      },
+      {
+        "id": 7,
+        "text": "Большой солёный водоём",
+        "arrow": 1,
+        "wordId": 7
+      },
+      {
+        "id": 8,
+        "text": "Верхняя конечность человека",
+        "arrow": 0,
+        "wordId": 8
+      },
+      {
+        "id": 9,
+        "text": "Искусство движущихся изображений",
+        "arrow": 1,
+        "wordId": 9
+      },
+      {
+        "id": 10,
+        "text": "Прибор, указывающий на север",
+        "arrow": 1,
+        "wordId": 10
+      }
+    ],
+    "clueCells": [
+      {
+        "cellIndex": 3,
+        "clueIds": [
+          10
+        ]
+      },
+      {
+        "cellIndex": 32,
+        "clueIds": [
+          7
+        ]
+      },
+      {
+        "cellIndex": 58,
+        "clueIds": [
+          9
+        ]
+      },
+      {
+        "cellIndex": 65,
+        "clueIds": [
+          3
+        ]
+      },
+      {
+        "cellIndex": 67,
+        "clueIds": [
+          8
+        ]
+      },
+      {
+        "cellIndex": 74,
+        "clueIds": [
+          5
+        ]
+      },
+      {
+        "cellIndex": 87,
+        "clueIds": [
+          2
+        ]
+      },
+      {
+        "cellIndex": 100,
+        "clueIds": [
+          4
+        ]
+      },
+      {
+        "cellIndex": 108,
+        "clueIds": [
+          1
+        ]
+      },
+      {
+        "cellIndex": 132,
+        "clueIds": [
+          6
+        ]
+      }
+    ],
+    "meta": {
+      "difficulty": 2,
+      "title": "Мастер",
+      "locale": "ru-RU",
+      "wordCount": 10,
+      "estimatedMinutes": 5
+    }
+  }
+]
